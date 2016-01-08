@@ -2,6 +2,6 @@
 #x= red
 
 ndvOver <- function(x, y) {
-  ndvi <- (y - x) / (x + y)
+  ndvi <- (y - x) / (y + x)
   return(ndvi)
 }
